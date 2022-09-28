@@ -5,11 +5,16 @@ class Patt
     {
         Scanner sc=new Scanner(System.in);
         int n=sc.nextInt();
-        for(int i=n;i>=1;i--)
+        for(int i=0;i<n;i++)
         {
-            for(int j=1;j<=i;j++)
+            for(int j=1;j<n-1;j++)
             {
                 System.out.printf("%d",j);
+                
+            }
+            for(int k=1;k<n-2;k++)
+            {
+                System.out.printf("%d",k);
             }
             System.out.println();
         }
