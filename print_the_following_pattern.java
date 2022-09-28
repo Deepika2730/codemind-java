@@ -7,9 +7,16 @@ class Patt
         int n=sc.nextInt();
         for(int i=0;i<n;i++)
         {
-            for(int j=n;j>0;j--)
+            for(int j=0;j<n;j++)
             {
-                System.out.printf("%d ",j);
+                if(i==j)
+                {
+                    System.out.printf("0");
+                }
+                else
+                {
+                    System.out.printf("x");
+                }
                 
             }
             
